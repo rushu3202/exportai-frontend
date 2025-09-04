@@ -1,2 +1,13 @@
-main {
-}
+body,html,#root{height:100%;margin:0;font-family:Inter,Arial,Helvetica,sans-serif}
+.app{display:flex;height:100vh}
+.sidebar{width:300px;padding:20px;background:#0f172a;color:#fff}
+.sidebar h2{margin-top:0}
+.sidebar button{width:100%;padding:10px;margin-bottom:10px;border-radius:8px;border:none}
+.chat{flex:1;display:flex;flex-direction:column;padding:20px}
+.messages{flex:1;overflow:auto;padding:10px;border:1px solid #e6e6e6;border-radius:8px}
+.msg{margin-bottom:12px;padding:8px;border-radius:8px}
+.msg.user{background:#e6f7ff;align-self:flex-end}
+.msg.assistant{background:#f3f4f6;align-self:flex-start}
+.composer{display:flex;gap:8px;margin-top:12px}
+.composer input{flex:1;padding:10px;border-radius:8px;border:1px solid #ddd}
+.composer button{padding:10px;border-radius:8px}
